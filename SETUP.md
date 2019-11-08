@@ -18,6 +18,9 @@ Use this guide to learn how to setup everything you need to build a workbook wit
 1. Install Git
 2. Install VS Code
 3. [Install Jekyll](https://jekyllrb.com/docs/installation/)
+Note: You need the latest version of Ruby, if you have an older version, follow these steps for upgrade: 
+https://medium.com/@IanRahman/how-to-upgrade-ruby-on-a-mac-a592c6085c63
+
 
 ### Clone Repository and Test Your Local Config
 1. Clone the repository you just created
@@ -28,7 +31,8 @@ Use this guide to learn how to setup everything you need to build a workbook wit
     * Type `jekyll build; jekyll serve` which asks Jekyll to..
       * Build actual HTML, CSS, and JavaScript files from the `sample_docs` source files
       * Start a local HTTP server so you can preview the generated site and pages locally
-6. Open your web browser to http://127.0.0.1:4000/sfdx-workshop/
+6. From the terminal output, look for the http://127.0.0.1:4000/sfdx-workshop/ url
+   Use this url in your browser to load a local server of your site
 7. Verify that you can click around the locally-served documentation site
 8. In the VS Code Integrated Terminal...
     *  Press `CTRL+C` to stop the Jekyll HTTP server
